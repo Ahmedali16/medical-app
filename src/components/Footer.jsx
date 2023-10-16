@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='bg-blue-400  flex flex-col md:flex-row items-center text-white'>
-            <div className=''>
+    <div className='bg-blue-400 p-10  flex flex-col md:flex-row items-center text-white'>
+           
             <div className='w-full md:w-1/4 p-4 flex justify-center text-center mx-auto'> <ul>
                 <li className='font-semibold text-2xl m-3'>Ahmed Clinic</li>
                 <li className='m-3 '>Ahmed Clinic provides you the best Quality and best Medical care You need for your bettere life</li>
@@ -35,8 +35,8 @@ export default function Footer() {
                 <li className='m-3'>Calling</li>
             </ul></div>
         
-            </div>
-            <div className='text-center text-white bg-blue-500 text-2xl'>@Medical-Care  -- Ahmedali16</div>
+            <div className='text-center text-white bg-blue-500 text-2xl'>@Medical-Care  -- Ahmedali16</div>  
+          
 
     </div>
   )
